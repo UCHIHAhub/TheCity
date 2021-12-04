@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/web"
+        android:enabled="true"
+        android:icon="@drawable/ic_web"
+        android:title="Webview" />
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/ic_turned_not"
+        android:title="Favorite" />
+
+    <item
+        android:id="@+id/comments"
+        android:icon="@drawable/ic_comment"
+        android:title="Comments" />
+    <item
+        android:id="@+id/screen"
+        android:icon="@drawable/ic_screen_share"
+        android:title="Screen" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Screen" />
+
+</menu>

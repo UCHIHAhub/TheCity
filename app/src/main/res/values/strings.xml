@@ -1,0 +1,57 @@
+<resources>
+    <!-- Name App -->
+    <string name="app_name">TheCity</string>
+
+    <!-- other -->
+    <string name="nav_header">abbas ghasemi</string>
+    <string name="box_name">Content category</string>
+    <string name="comment_name">Post comments</string>
+    <string name="page_name">sheets</string>
+    <string name="mark_name">Favorites</string>
+    <string name="empty">There is nothing to display.</string>
+    <string name="not_found">No items to display !.</string>
+    <string name="search">Search</string>
+    <string name="dialog_button_neutral">&#032;</string>
+    <string name="Interstitial_ad_unit_idm">ca-app-pub-2175127841278918/7252703906</string>
+    <string name="banner_ad_unit_idm">ca-app-pub-2175127841278918/8374213889</string>
+    <string name="ad_app_id">ca-app-pub-2175127841278918~5093444421</string>
+    <!-- post item -->
+    <string name="comments">opinions</string>
+    <string name="open_in">Open in browser</string>
+    <string name="send_text">Send text</string>
+    <string name="copy_text">Copy text</string>
+    <string name="send_link">Share link</string>
+    <string name="copy_link">Copy link</string>
+
+    <!-- menu item -->
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="boxs">Categories</string>
+    <string name="share">Subscribe to the app</string>
+    <string name="nav_about">about us</string>
+    <string name="nav_info">App Features</string>
+    <string name="book_mark">Marked</string>
+
+    <string name="instagram">Whatsapp</string>
+    <string name="telegram">Telegram</string>
+    <string name="service_text">Terms of Use</string>
+    <string name="msg_about">All rights of this application belong to Abbas Ghasemi.
+\ n \ n
+Copy Right 2019
+\ n
+Developer: Abbas Ghasemi
+    </string>
+    <string name="msg_service">All rights of this application belong to Abbas Ghasemi.
+\ n \ n
+Copy Right 2019
+\ n
+Developer: Abbas Ghasemi
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="loading">Loading</string>
+    <string name="comment_submit_success">Comment Post success</string>
+    <string name="comment_status_close_error">Comment Post error</string>
+
+</resources>

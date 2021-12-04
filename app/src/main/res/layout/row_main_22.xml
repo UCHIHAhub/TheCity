@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgPost"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="250dp"
+        android:layout_above="@id/layout"
+        android:minHeight="250dp"
+        android:maxHeight="250dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <RelativeLayout
+        android:layout_above="@id/views"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/writerPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/back_writer_post_row_main_2"
+            android:singleLine="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:text="Author: Maazi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/titlePost"
+            android:layout_below="@id/writerPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:maxLines="3"
+            android:text="First post"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp" />
+    </RelativeLayout>
+    <View
+        android:layout_alignParentBottom="true"
+        android:id="@+id/views"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/dividerColor" />
+
+</RelativeLayout>

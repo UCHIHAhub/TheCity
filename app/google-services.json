@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781296374136",
+    "project_id": "imoecondev-b5eb1",
+    "storage_bucket": "imoecondev-b5eb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781296374136:android:7e58c4d1215066e643f88d",
+        "android_client_info": {
+          "package_name": "mobi.androapp.com.city"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781296374136-b1ofbamm8nnu09316caofc5ao94lm8a0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLynJkVjHKryTdxoR6MPZNuv4dLyHbaCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781296374136-b1ofbamm8nnu09316caofc5ao94lm8a0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

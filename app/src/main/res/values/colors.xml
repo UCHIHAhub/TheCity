@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="colorAccent">#1E88E5</color>
+    <color name="textColor">#cc000000</color>
+    <color name="textColorHint">#5A5A5A</color>
+    <color name="textDefaultColor">#E4E4E4</color>
+    <color name="dividerColor">#e2e2e2</color>
+    <color name="colorSearchBackground">#393939</color>
+    <color name="colorSearchStrokeBackground">#202020</color>
+    <color name="backgroundColor">#fff</color>
+    <color name="cardBackgroundColor">#fff</color>
+    <color name="colorControlHighlight">#ced7db</color>
+    <color name="navigationBarColor">#e2e2e2</color>
+    <color name="statusBarColor">#fff</color>
+    <color name="backWriterPost">@color/colorAccent</color>
+    <color name="inActiveTabColor">#B7C2C7</color>
+    <color name="photoEditTabColor">#000</color>
+    <color name="commentDate">#59a70f</color>
+    <color name="header_line">#37000000</color>
+</resources>

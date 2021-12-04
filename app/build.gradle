@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+
+def api = 'https://thecity.com.ng/' // YOUR SITE
+def packageName = "mobi.androapp.com.city"
+def code = 8
+def name = "1.7"
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    defaultConfig {
+        applicationId packageName
+        versionCode code
+        versionName name
+        minSdkVersion 21
+        targetSdkVersion 30
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            crunchPngs false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        buildTypes.each {
+            it.buildConfigField 'String', 'API', '\"' + api + '\"'
+        }
+    }
+
+    compileOptions{
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.4.0')
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.github.Guilherme-HRamos:Easy-Save:1.2.1'
+    implementation 'ja.burhanrashid52:photoeditor:0.4.0'
+    implementation 'com.android.volley:volley:1.2.0'
+    implementation 'eu.dkaratzas:android-inapp-update:1.0.5'
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+    implementation 'me.shaohui:bottomdialog:1.1.9'
+    implementation 'com.github.searchy2:CustomAlertViewDialogue:2.6.1'
+    implementation 'org.jsoup:jsoup:1.11.1'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+
+//    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+
+    implementation 'com.google.android.gms:play-services-ads:20.3.0'
+
+
+
+    implementation 'com.google.firebase:firebase-database:20.0.2'
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+
+apply plugin: 'com.google.gms.google-services' // Google Services Gradle Plugin
